@@ -40,7 +40,8 @@ shader_version = "0.7.0"
 fnv = "1.0.2"
 
 [dependencies.piston2d-graphics]
-version = "0.41.0"
+# version = "0.41.0"
+git = "https://github.com/ayyEve/graphics"
 features = ["glyph_cache_rusttype"]
 
 [dev-dependencies]
